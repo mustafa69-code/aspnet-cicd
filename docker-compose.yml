@@ -4,6 +4,6 @@ services:
     api:
        build:
           context: . 
-          dockerfile: Docerfile
+          dockerfile: Dockerfile
        ports:
         - 80:80 
